@@ -1,0 +1,272 @@
+//creating interface
+package projectinterface;
+
+public interface TeamIndia {
+	int numberofbatsmen();
+	int numberofbollers();
+	int numberoffielders();
+}
+//creating class 1
+package projectinterface;
+
+public class TeamV1 implements TeamIndia{
+		public int numberofbatsmen()
+		{
+			System.out.println("max");
+			System.out.println("bean");
+			return 2;
+		}
+		public int numberofbollers() {
+			System.out.println("brock");
+			System.out.println("shin chan");
+			return 2;
+		}
+		public int numberoffielders() {
+			System.out.println("Nobitha");
+			System.out.println("Doremon");
+			return 2;
+		}
+}
+//creating class2
+package projectinterface;
+
+public class TeamV2 implements TeamIndia{
+		public int numberofbatsmen() {
+			System.out.println("virat");
+			System.out.println("kohili");
+			return 2;
+		}
+		public int numberofbollers() {
+			System.out.println("max");
+			System.out.println("ash");
+			return 2;
+	}
+		public int numberoffielders() {
+			System.out.println("smurf");
+			System.out.println("turtle");
+			return 2;
+		}
+}
+//creating class 3
+package projectinterface;
+
+public class TeamV3 implements TeamIndia{
+	public int numberofbatsmen() {
+		System.out.println("appi");
+		System.out.println("bean");
+		return 2;
+	}
+	public int numberofbollers() {
+		System.out.println("brock");
+		System.out.println("ash");
+		return 2;
+}
+	public int numberoffielders() {
+		System.out.println("pichachu");
+		System.out.println("pokemon");
+		return 2;
+	}
+}
+//creating class 4
+package projectinterface;
+
+public class TeamV4 implements TeamIndia{
+	public int numberofbatsmen() {
+		System.out.println("chota");
+		System.out.println("bheam");
+		return 2;
+	}
+	public int numberofbollers() {
+		System.out.println("dora");
+		System.out.println("bujji");
+		return 2;
+}
+	public int numberoffielders() {
+		System.out.println("doore");
+		System.out.println("mon");
+		return 2;
+	}
+
+
+}
+//creating class 5
+package projectinterface;
+
+public class TeamV5 implements TeamIndia{
+	public int numberofbatsmen() {
+		System.out.println("happy");
+		System.out.println("rayon");
+		return 2;
+	}
+	public int numberofbollers() {
+		System.out.println("max");
+		System.out.println("bob");
+		return 2;
+}
+	public int numberoffielders() {
+		System.out.println("virat");
+		System.out.println("dhoni");
+		return 2;
+	}
+
+
+}
+//creating class 6
+package projectinterface;
+
+public class TeamV6 implements TeamIndia{
+	public int numberofbatsmen() {
+		System.out.println("kasama");
+		System.out.println("nene");
+		return 2;
+	}
+	public int numberofbollers() {
+		System.out.println("bhochan");
+		System.out.println("shinchan");
+		return 2;
+}
+	public int numberoffielders() {
+		System.out.println("gangleader");
+		System.out.println("shiroo");
+		return 2;
+	}
+}
+
+
+//creating class 7
+package projectinterface;
+
+public class TeamV7 implements TeamIndia{
+	public int numberofbatsmen() {
+		System.out.println("jay");
+		System.out.println("darla");
+		return 2;
+	}
+	public int numberofbollers() {
+		System.out.println("karla");
+		System.out.println("bob");
+		return 2;
+}
+	public int numberoffielders() {
+		System.out.println("smurf");
+		System.out.println("harry");
+		return 2;
+	}
+}
+//creating class 8
+package projectinterface;
+
+public class TeamV8 implements TeamIndia{
+	public int numberofbatsmen() {
+		System.out.println("max");
+		System.out.println("leo");
+		return 2;
+	}
+	public int numberofbollers() {
+		System.out.println("dhavan");
+		System.out.println("sachin");
+		return 2;
+}
+	public int numberoffielders() {
+		System.out.println("dhoni");
+		System.out.println("virat");
+		return 2;
+	}
+}
+//creating class 9
+package projectinterface;
+
+public class TeamV9 implements TeamIndia{
+	public int numberofbatsmen() {
+		System.out.println("Tiger");
+		System.out.println("lion");
+		return 2;
+	}
+	public int numberofbollers() {
+		System.out.println("RAT");
+		System.out.println("CAT");
+		System.out.println("Monkey");
+		return 3;
+}
+	public int numberoffielders() {
+		System.out.println("Bat");
+		System.out.println("Dog");
+		return 2;
+	}
+}
+//creating class 10
+package projectinterface;
+
+public class TeamV10 implements TeamIndia{
+	public int numberofbatsmen() {
+		System.out.println("beam");
+		System.out.println("jam");
+		System.out.println("frogy");
+		return 3;
+	}
+	public int numberofbollers() {
+		System.out.println("kitty");
+		System.out.println("jimmy");
+		return 2;
+}
+	public int numberoffielders() {
+		System.out.println("brock");
+		System.out.println("vicky");
+		return 2;
+	}
+	public static void main(String[] args) {
+
+		TeamIndia TeamV1 = new TeamV1();
+		System.out.println("numberofbatsmen in v1: "+TeamV1.numberofbatsmen());
+		System.out.println("numberofbollers in v1: "+TeamV1.numberofbollers());
+		System.out.println("numberoffielders in v1: "+TeamV1.numberoffielders());
+		
+		TeamIndia TeamV2 = new TeamV2();
+		System.out.println("numberofbatsmen in v2: "+TeamV2.numberofbatsmen());
+		System.out.println("numberofbollers in v2: "+TeamV2.numberofbollers());
+		System.out.println("numberoffielders in v2: "+TeamV2.numberoffielders());
+		
+		TeamIndia TeamV3 = new TeamV3();
+		System.out.println("numberofbatsmen in v3: "+TeamV3.numberofbatsmen());
+		System.out.println("numberofbollers in v3: "+TeamV3.numberofbollers());
+		System.out.println("numberoffielders in v3: "+TeamV3.numberoffielders());
+		
+		TeamIndia TeamV4 = new TeamV4();
+		System.out.println("numberofbatsmen in v4: "+TeamV4.numberofbatsmen());
+		System.out.println("numberofbollers in v4: "+TeamV4.numberofbollers());
+		System.out.println("numberoffielders in v4: "+TeamV4.numberoffielders());
+		
+		TeamIndia TeamV5 = new TeamV5();
+		System.out.println("numberofbatsmen in v5: "+TeamV5.numberofbatsmen());
+		System.out.println("numberofbollers in v5: "+TeamV5.numberofbollers());
+		System.out.println("numberoffielders in v5: "+TeamV5.numberoffielders());
+		
+
+		TeamIndia TeamV6 = new TeamV6();
+		System.out.println("numberofbatsmen in v6: "+TeamV6.numberofbatsmen());
+		System.out.println("numberofbollers in v6: "+TeamV6.numberofbollers());
+		System.out.println("numberoffielders in v6: "+TeamV6.numberoffielders());
+		
+		TeamIndia TeamV7= new TeamV7();
+		System.out.println("numberofbatsmen in v7: "+TeamV7.numberofbatsmen());
+		System.out.println("numberofbollers in v7: "+TeamV7.numberofbollers());
+		System.out.println("numberoffielders in v7: "+TeamV7.numberoffielders());
+		
+		TeamIndia TeamV8 = new TeamV8();
+		System.out.println("numberofbatsmen in v8: "+TeamV8.numberofbatsmen());
+		System.out.println("numberofbollers in v8: "+TeamV8.numberofbollers());
+		System.out.println("numberoffielders in v8: "+TeamV8.numberoffielders());
+		
+		
+		TeamIndia TeamV9 = new TeamV9();
+		System.out.println("numberofbatsmen in v9: "+TeamV9.numberofbatsmen());
+		System.out.println("numberofbollers in v9: "+TeamV9.numberofbollers());
+		System.out.println("numberoffielders in v9: "+TeamV9.numberoffielders());
+		
+		TeamIndia TeamV10 = new TeamV10();
+		System.out.println("numberofbatsmen in v10: "+TeamV10.numberofbatsmen());
+		System.out.println("numberofbollers in v10: "+TeamV10.numberofbollers());
+		System.out.println("numberoffielders in v10: "+TeamV10.numberoffielders());
+		
+}}
+    
